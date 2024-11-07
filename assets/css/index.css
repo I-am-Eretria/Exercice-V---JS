@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3a2928;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px;
+    gap: 25px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    background-color: white;
+    color: #2b211f;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.right-card{
+    display: flex;
+    justify-content: start;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.author{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: end;
+}
+
+#fav{
+    color: #637ddb;
+    font-size: 36px;
+    display: flex;
+    justify-content: end;
+    translate: 0 -24px;
+    cursor: pointer;
+}
